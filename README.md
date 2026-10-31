@@ -1,22 +1,53 @@
-# İSPATLA
+<p align="center">
+  <a href="https://ispatla.tr"><img src="public/brand/ispatla-favicon.png" alt="ispatla.tr simgesi" width="88"></a>
+</p>
 
-## Algoritmaya tapma. İspatla.
+<h1 align="center">ispatla.tr</h1>
 
-𝕏 kaynaklarını incele. Hesaplarına uygun konuları seç, AI taslağını kendi sesinle düzenle.
+<p align="center"><strong>Algoritmaya tapma. İspatla.</strong></p>
 
-[ispatla.tr](https://ispatla.tr) ⁜ [Kurulum ve yardım](https://ispatla.tr/docs) ⁜ [Ürün ve marka stratejisi](docs/PRODUCT_STRATEGY.md)
+<p align="center">
+  𝕏'teki kaynakları incele. Hesabına uygun konuları bul. Taslağını kendi sesinle yaz.
+</p>
 
-İSPATLA; kaynak gönderiyi, hesap uyumunu, karar gerekçesini ve düzenlenebilir taslağı aynı çalışma alanında tutar. Birden fazla hesap için çalışabilir; içerikleri tek tek ya da birlikte inceleyebilirsin. Kaynak ağı 𝕏'tir. Bu GitHub deposu ürünün kodu, yöntemi ve katkı kanalıdır.
+<p align="center">
+  <a href="https://ispatla.tr">Siteyi aç</a> ⁜
+  <a href="https://ispatla.tr/tr">Türkçe arayüz</a> ⁜
+  <a href="https://ispatla.tr/tr/docs">Nasıl kullanılır?</a> ⁜
+  <a href="CONTRIBUTING.md">Katkı</a>
+</p>
 
-- Public handle üzerinden hesap ekleme, konu ve yazım tarzı analizi.
-- Hesaba bağlı kaynaklar, fırsatlar ve kaynak gönderi inceleyicisi.
-- Kendi AI sağlayıcın/anahtarınla taslak üretme ve düzenleme.
-- Kullanıcı tarafından paylaşım hazırlığı ve veri kökeni korunan sonuç gözlemi.
-- Yerel stdio ve OAuth ile yetkilendirilen uzak MCP bağlantısı.
+<p align="center">
+  <a href="https://github.com/OnurByte/ispatla.tr/actions/workflows/social-sharing-ci.yml"><img src="https://github.com/OnurByte/ispatla.tr/actions/workflows/social-sharing-ci.yml/badge.svg" alt="Kod ve paylaşım kontrolleri"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/lisans-AGPL--3.0--or--later-315BF5" alt="AGPL-3.0-or-later lisansı"></a>
+</p>
 
-Puanlar viral olasılık değildir. Public FxTwitter gözlemi resmî 𝕏 API doğrulaması sayılmaz. AI ve altyapı ücretleri kullanılan sağlayıcıya bağlıdır. AGPL-3.0-or-later lisansı hizmetlerin ücretsiz olduğu anlamına gelmez.
+## Ne işe yarıyor?
 
-## Yerel başlangıç
+Bir 𝕏 gönderisini görüp kendi hesabında nasıl ele alacağını düşünüyorsan, ispatla.tr kaynak gönderiyi, neden ilgili olduğunu ve düzenleyebileceğin bir taslağı aynı yerde gösterir. Birden fazla hesabın varsa her biri için ayrı bir yaklaşım seçebilirsin.
+
+1. **Hesabını ekle.** Herkese açık 𝕏 kullanıcı adından konularını ve yazım tarzını incele. 𝕏 parolanı vermen gerekmez.
+2. **Kaynağı gör.** İlgili gönderiyi, hesabına neden uyduğunu ve bilinen verinin sınırlarını incele.
+3. **Taslağı düzenle.** Kendi AI sağlayıcını kullan, önerilen metni değiştir veya tamamen kendin yaz.
+4. **Kararı sen ver.** Paylaşımı kendin tamamla. Sonuçlar varsa kaynak ve doğrulama düzeyiyle ayrı gösterilir.
+
+<p align="center">
+  <img src="docs/assets/interactive-preview.png" alt="Solda kaynak 𝕏 gönderisi, sağda hesap seçimi ve düzenlenebilir taslak" width="900">
+</p>
+
+## Bilmen gerekenler
+
+- Fırsat puanı, gönderinin viral olacağı anlamına gelmez.
+- Herkese açık 𝕏 verileri FxTwitter üzerinden okunabilir; bu, resmî 𝕏 doğrulaması veya hesap sahipliği kanıtı değildir.
+- AI anahtarı ve sağlayıcısı sana aittir. Sağlayıcı veya altyapı ücretli olabilir.
+- Resmî ücretli 𝕏 veri ve otomatik yayın işlemleri Prime öncesinde kapalıdır. Hazırlanan taslağın yayımlanması kullanıcı kontrolündedir.
+
+**Kod açık. Karar sende.** [AGPL-3.0-or-later lisansı](LICENSE) ⁜ [Mimari](docs/ARCHITECTURE.md) ⁜ [Ürün yaklaşımı](docs/PRODUCT_STRATEGY.md)
+
+<details>
+<summary>Geliştiriciler için: kurulum, MCP, testler ve teknik sınırlar</summary>
+
+### Yerel başlangıç
 
 Node.js 22.5+ ve Bun kullanılır. Repo kökünde çalıştırın:
 
@@ -45,7 +76,7 @@ Landing `/`, kayıt `/signup`, giriş `/login`, çalışma alanı `/dashboard`, 
 
 Mail gönderimi için `ISPATLA_MAIL_API_URL` ve `ISPATLA_MAIL_API_TOKEN` kullanılır. HTTPS JSON taşıyıcısı `to`, `subject`, `text` alanlarını kabul etmelidir. Gerçek teslim ayrıca doğrulanır. `ISPATLA_PRIVATE_BETA=1`, e-posta doğrulamasını kapatan geliştirme/beta tercihidir.
 
-## Hesap, giriş ve yayın
+### Hesap, giriş ve yayın
 
 Public kullanıcı adını eklemek OAuth veya 𝕏 parolası gerektirmez. Profil ve public gönderiler FxTwitter üzerinden analiz edilir; eksik veri partial sonuç üretebilir. Handle eklemek sahiplik kanıtı değildir. Sahiplik ayrı doğrulanır. Manuel konu ve ses tercihleri yeniden analizde korunur.
 
@@ -61,7 +92,7 @@ http://localhost:3000/api/auth/callback/twitter
 
 Web Intent veya zamanlama ekranının açılması yayın başarı kanıtı değildir. Public receipt author/metin/hedef bağlamıyla ilişkilendirilir; belirsiz işlem kör yeniden denenmez. Otomatik like, DM ve spam kampanyaları ürün yolu değildir.
 
-## MCP
+### MCP
 
 Yerel stdio sunucusu:
 
@@ -73,7 +104,7 @@ bun run mcp
 
 Uzak istemciye dağıtımınızın `https://<origin>/mcp` adresini ekleyin. OAuth discovery, PKCE, açık consent ve iptal edilebilir scopes kullanılır: `read`, `drafts:write`, `analysis:write`, `publishing:prepare`, `receipts:write`. Taslak veya yayın hazırlama yetkisi otomatik gönderim yetkisi değildir. Erişim `/settings/security` üzerinden iptal edilebilir. [Bağlantı rehberi](https://ispatla.tr/docs#mcp).
 
-## Kontroller ve worker
+### Kontroller ve worker
 
 ```sh
 bun test --isolate
@@ -91,7 +122,7 @@ Günlük pazarlama raporu `bun scripts/landing-report.ts` ile alınır. Olay say
 
 Yerel fixture, test, Lighthouse veya build sonucu canlı OAuth, mail teslimi, sağlayıcı faturası ve üretim davranışının yerine geçmez. Bu kanıtlar kabul kaydında ayrı tutulur.
 
-## Lighthouse ve SEO
+### Lighthouse ve SEO
 
 `bun run test:seo`; 20 dilde canonical/hreflang, robots/sitemap, sosyal resim ve oEmbed sınırlarını doğrular. Typecheck komutu `--strict` ile çalışır.
 
@@ -107,7 +138,7 @@ LIGHTHOUSE_URL=http://localhost:3000/ bun run quality:lighthouse
 Chrome/Chromium gerekir; `CHROME_PATH` ile seçilebilir. Mobile ve desktop HTML/JSON raporları `lighthouse-reports/` altına yazılır. Eşikler: performans en az 90; erişilebilirlik, Best Practices ve SEO 100. İhlal komutu başarısız yapar. Bunlar yerel laboratuvar ölçümleridir; saha Core Web Vitals veya üretim erişilebilirliği kanıtı değildir. Ölçülen origin sunucunun yapılandırılmış origin'iyle eşleşmelidir.
 
 
-## Rendered SEO and favicon gate
+### SEO ve favicon doğrulaması
 
 After a production build is running locally, audit its actual responses:
 
@@ -116,3 +147,5 @@ bun run quality:seo http://localhost:3000
 ```
 
 The gate covers sitemap pages in all 20 locales, reciprocal canonical/hreflang links, crawl rules, the reviewed brand favicon, social images, auth noindex and unknown-route 404s. It fails on missing, duplicate, conflicting or non-crawlable metadata. CI starts its own loopback production server for the same check. The origin argument can also be an explicitly selected deployment for a read-only audit; passing this gate does not prove Google has recrawled the site or changed its Search Console icon. Evidence and upstream references: [27 October usability/SEO verification](docs/qa/usability-seo-2026-10-27.md).
+
+</details>
