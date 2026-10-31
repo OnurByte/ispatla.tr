@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="488" viewBox="0 0 1200 488" role="img" aria-labelledby="title desc">
+<title id="title">From public source to human decision</title>
+<desc id="desc">Four-step ispatla.tr workflow: source, account relevance, editable draft and human decision.</desc>
+<rect width="1200" height="488" fill="#F0EDE5"/>
+<rect x="16" y="16" width="1168" height="456" rx="16" fill="none" stroke="#C9C5BC" stroke-width="1.5"/>
+<text x="64" y="66" fill="#315BF5" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="3">FROM SOURCE TO YOUR VOICE</text>
+<text x="64" y="131" fill="#16191E" font-family="Georgia, serif" font-size="49" font-weight="700">Find the conversation. Own the response.</text>
+<text x="65" y="174" fill="#494C52" font-family="Arial, Helvetica, sans-serif" font-size="20">One source. Multiple perspectives. The final word is yours.</text>
+<path d="M64 194H1136" stroke="#C9C5BC" stroke-width="1"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<g>
+<rect x="64" y="221" width="250" height="216" rx="12" fill="#FFFEFB" stroke="#D0CBC1" stroke-width="1.5"/>
+<text x="88" y="262" font-size="14" letter-spacing="1.5" font-weight="700" fill="#315BF5">01 / SOURCE</text>
+<text x="88" y="321" font-family="Georgia, serif" font-size="27" fill="#16191E">See the post</text>
+<text x="88" y="367" font-size="16" fill="#494C52">Original content.</text>
+<text x="88" y="394" font-size="16" fill="#494C52">Traceable source.</text>
+</g>
+<g>
+<rect x="338" y="221" width="250" height="216" rx="12" fill="#FFFEFB" stroke="#D0CBC1" stroke-width="1.5"/>
+<text x="362" y="262" font-size="14" letter-spacing="1.5" font-weight="700" fill="#315BF5">02 / RELEVANCE</text>
+<text x="362" y="321" font-family="Georgia, serif" font-size="27" fill="#16191E">Find your angle</text>
+<text x="362" y="367" font-size="16" fill="#494C52">Matched to your account.</text>
+<text x="362" y="394" font-size="16" fill="#494C52">Reasons included.</text>
+</g>
+<g>
+<rect x="612" y="221" width="250" height="216" rx="12" fill="#FFFEFB" stroke="#D0CBC1" stroke-width="1.5"/>
+<text x="636" y="262" font-size="14" letter-spacing="1.5" font-weight="700" fill="#315BF5">03 / DRAFT</text>
+<text x="636" y="321" font-family="Georgia, serif" font-size="27" fill="#16191E">Make it yours</text>
+<text x="636" y="367" font-size="16" fill="#494C52">An editable starting point.</text>
+<text x="636" y="394" font-size="16" fill="#494C52">Your model. Your words.</text>
+</g>
+<g>
+<rect x="886" y="221" width="250" height="216" rx="12" fill="#FFFEFB" stroke="#D0CBC1" stroke-width="1.5"/>
+<text x="910" y="262" font-size="14" letter-spacing="1.5" font-weight="700" fill="#315BF5">04 / DECISION</text>
+<text x="910" y="321" font-family="Georgia, serif" font-size="27" fill="#16191E">You decide</text>
+<text x="910" y="367" font-size="16" fill="#494C52">Review before sharing.</text>
+<text x="910" y="394" font-size="16" fill="#494C52">Outcomes stay separate.</text>
+</g>
+<path d="M318 329h12m-5-5 5 5-5 5" stroke="#315BF5" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M592 329h12m-5-5 5 5-5 5" stroke="#315BF5" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M866 329h12m-5-5 5 5-5 5" stroke="#315BF5" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="64" y="458" width="1072" height="3" fill="#315BF5"/>
+</svg>
