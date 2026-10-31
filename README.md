@@ -1,110 +1,110 @@
 <p align="center">
-  <a href="https://ispatla.tr"><img src="public/brand/ispatla-favicon.png" alt="ispatla.tr simgesi" width="88"></a>
+  <a href="https://ispatla.tr"><img src="public/brand/ispatla-favicon.png" alt="ispatla.tr mark" width="88"></a>
 </p>
 
 <h1 align="center">ispatla.tr</h1>
 
-<p align="center"><strong>Algoritmaya tapma. İspatla.</strong></p>
+<p align="center"><strong>Don’t worship the algorithm. Prove it.</strong></p>
 
 <p align="center">
-  𝕏'teki kaynakları incele. Hesabına uygun konuları bul. Taslağını kendi sesinle yaz.
+  Find relevant 𝕏 conversations. See why they fit your account.<br>
+  Write in your own voice. Keep the final say.
 </p>
 
 <p align="center">
-  <a href="https://ispatla.tr">Siteyi aç</a> ⁜
-  <a href="https://ispatla.tr/tr">Türkçe arayüz</a> ⁜
-  <a href="https://ispatla.tr/tr/docs">Nasıl kullanılır?</a> ⁜
-  <a href="CONTRIBUTING.md">Katkı</a>
+  <a href="https://ispatla.tr">Try the interactive preview</a> ⁜
+  <a href="https://ispatla.tr/docs">How it works</a> ⁜
+  <a href="CONTRIBUTING.md">Contribute</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/OnurByte/ispatla.tr/actions/workflows/social-sharing-ci.yml"><img src="https://github.com/OnurByte/ispatla.tr/actions/workflows/social-sharing-ci.yml/badge.svg" alt="Kod ve paylaşım kontrolleri"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/lisans-AGPL--3.0--or--later-315BF5" alt="AGPL-3.0-or-later lisansı"></a>
+  <a href="https://github.com/OnurByte/ispatla.tr/actions/workflows/social-sharing-ci.yml"><img src="https://github.com/OnurByte/ispatla.tr/actions/workflows/social-sharing-ci.yml/badge.svg" alt="Code and social-sharing checks"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0--or--later-315BF5" alt="AGPL-3.0-or-later license"></a>
 </p>
-
-## Ne işe yarıyor?
-
-Bir 𝕏 gönderisini görüp kendi hesabında nasıl ele alacağını düşünüyorsan, ispatla.tr kaynak gönderiyi, neden ilgili olduğunu ve düzenleyebileceğin bir taslağı aynı yerde gösterir. Birden fazla hesabın varsa her biri için ayrı bir yaklaşım seçebilirsin.
-
-1. **Hesabını ekle.** Herkese açık 𝕏 kullanıcı adından konularını ve yazım tarzını incele. 𝕏 parolanı vermen gerekmez.
-2. **Kaynağı gör.** İlgili gönderiyi, hesabına neden uyduğunu ve bilinen verinin sınırlarını incele.
-3. **Taslağı düzenle.** Kendi AI sağlayıcını kullan, önerilen metni değiştir veya tamamen kendin yaz.
-4. **Kararı sen ver.** Paylaşımı kendin tamamla. Sonuçlar varsa kaynak ve doğrulama düzeyiyle ayrı gösterilir.
 
 <p align="center">
-  <img src="docs/assets/interactive-preview.png" alt="Solda kaynak 𝕏 gönderisi, sağda hesap seçimi ve düzenlenebilir taslak" width="900">
+  <img src="docs/assets/readme-workflow.svg" alt="ispatla.tr takes a public source through account relevance and an editable draft to a human decision" width="1000">
 </p>
 
-## Bilmen gerekenler
+## A better starting point for your next post
 
-- Fırsat puanı, gönderinin viral olacağı anlamına gelmez.
-- Herkese açık 𝕏 verileri FxTwitter üzerinden okunabilir; bu, resmî 𝕏 doğrulaması veya hesap sahipliği kanıtı değildir.
-- AI anahtarı ve sağlayıcısı sana aittir. Sağlayıcı veya altyapı ücretli olabilir.
-- Resmî ücretli 𝕏 veri ve otomatik yayın işlemleri Prime öncesinde kapalıdır. Hazırlanan taslağın yayımlanması kullanıcı kontrolündedir.
+The hard part isn't generating another paragraph. It's finding a real conversation, knowing why it matters to your audience, and writing something that still sounds like you.
 
-**Kod açık. Karar sende.** [AGPL-3.0-or-later lisansı](LICENSE) ⁜ [Mimari](docs/ARCHITECTURE.md) ⁜ [Ürün yaklaşımı](docs/PRODUCT_STRATEGY.md)
+**ispatla.tr puts the original 𝕏 post, account relevance, reasoning and editable draft in one workspace.** Use one account or several. Review drafts individually or together. Nothing in the interactive preview publishes on your behalf.
 
-<details>
-<summary>Geliştiriciler için: kurulum, MCP, testler ve teknik sınırlar</summary>
+## See the source. Shape the response.
 
-### Yerel başlangıç
+<p align="center">
+  <a href="https://ispatla.tr"><img src="docs/assets/interactive-preview.png" alt="Interactive preview with a source post, account perspectives and an editable draft" width="900"></a>
+</p>
 
-Node.js 22.5+ ve Bun kullanılır. Repo kökünde çalıştırın:
+<sub>Interactive preview shown in Turkish. The source is separate from the editable writing. Try the live version to switch account perspectives, edit, approve and copy a draft.</sub>
+
+- **Source-first:** Open the original 𝕏 post and see where an opportunity came from.
+- **Account-aware:** Explore a different angle for each account, with the reasons behind the match.
+- **Your voice:** Bring your own AI provider, rewrite the suggestion or start from a blank draft.
+- **Your decision:** Prepare a share, then complete it yourself. Observed outcomes retain their evidence level.
+
+## One place for the whole workflow
+
+<p align="center">
+  <a href="docs/qa/workspace-tr.png"><img src="docs/qa/workspace-tr.png" alt="ispatla.tr dashboard showing opportunities, AI setup and account state" width="900"></a>
+</p>
+
+<sub>Dashboard captured during local QA in the Turkish locale. The counts shown are test state, not customer or growth results.</sub>
+
+The signed-in workspace includes account contexts, opportunities, a draft studio and publication records. The repository also includes local stdio and OAuth-protected HTTP [MCP endpoints](https://ispatla.tr/docs#mcp) for scoped research and drafting.
+
+## No black-box promises
+
+An opportunity score is **not** a prediction of virality. Public observations through FxTwitter are **not** official 𝕏 verification. A draft, approval or opened share screen is **not** proof of publication. Official metered 𝕏 data and automated publishing remain disabled until Prime entitlement and budget controls exist.
+
+AI providers and infrastructure may charge fees. This is [open-source software under AGPL-3.0-or-later](LICENSE), not a promise of free external services.
+
+## Run it yourself
+
+Requires Node.js 22.5+ and Bun 1.4.x. The public landing can render without a database; accounts and private workspaces need PostgreSQL.
 
 ```sh
 bun install --frozen-lockfile
-```
-
-Yerel, Git'e eklenmeyen ortam dosyanızda veya süreç ortamında yapılandırın:
-
-```text
-BETTER_AUTH_SECRET=<en az 32 karakterlik rastgele gizli değer>
-BETTER_AUTH_URL=http://localhost:3000
-ISPATLA_TOKEN_KEY_CURRENT=<rastgele token şifreleme anahtarı>
-ISPATLA_SECRET_KEY=<AI kasası için ayrı rastgele anahtar>
-ISPATLA_AUTOMATION=0
-DATABASE_URL=postgresql://<role>:<password>@<host>:<port>/<database>
-```
-
-Boş geliştirme veritabanına `supabase/migrations/` dosyalarını ad sırasıyla uygulayın. Mevcut üretim veritabanı üzerinde deneme yapmayın. Supabase kullanılıyorsa Connect panelindeki tam transaction-pooler URI'sini alın; host/parola tahmin etmeyin. Uygulama Supabase bağlantılarında TLS sertifikasını doğrular. Landing veritabanı olmadan okunabilir; oturum ve özel çalışma alanı veritabanına ihtiyaç duyar.
-
-```sh
+cp .env.example .env
+# Set your own database URL and random secrets in .env
 bun run dev
 ```
 
-Landing `/`, kayıt `/signup`, giriş `/login`, çalışma alanı `/dashboard`, fırsatlar `/opportunities`, hesaplar `/accounts`, taslaklar `/drafts` adreslerindedir. Yerelleştirilmiş rotalar 20 dili destekler; varsayılan İngilizce rotası öneksizdir; Türkçe `/tr` altındadır.
+Use a **fresh development database** and apply the migrations in `supabase/migrations/` in filename order. For Supabase, copy the complete **Connect → Transaction pooler** URI; do not guess its host or username. The app verifies TLS certificates for Supabase connections. Never test migrations against production data.
 
-Mail gönderimi için `ISPATLA_MAIL_API_URL` ve `ISPATLA_MAIL_API_TOKEN` kullanılır. HTTPS JSON taşıyıcısı `to`, `subject`, `text` alanlarını kabul etmelidir. Gerçek teslim ayrıca doğrulanır. `ISPATLA_PRIVATE_BETA=1`, e-posta doğrulamasını kapatan geliştirme/beta tercihidir.
+<details>
+<summary>Configuration, MCP and verification</summary>
 
-### Hesap, giriş ve yayın
+### Required local configuration
 
-Public kullanıcı adını eklemek OAuth veya 𝕏 parolası gerektirmez. Profil ve public gönderiler FxTwitter üzerinden analiz edilir; eksik veri partial sonuç üretebilir. Handle eklemek sahiplik kanıtı değildir. Sahiplik ayrı doğrulanır. Manuel konu ve ses tercihleri yeniden analizde korunur.
-
-𝕏 ile uygulamaya giriş, `X_OAUTH_CLIENT_ID` ve `X_OAUTH_CLIENT_SECRET` yapılandırıldığında kullanılabilir. Developer Console callback adresi:
+Keep `.env` out of Git. Replace the example values for:
 
 ```text
-http://localhost:3000/api/auth/callback/twitter
+DATABASE_URL=postgresql://<role>:<password>@<host>:<port>/<database>
+BETTER_AUTH_URL=http://localhost:3000
+BETTER_AUTH_SECRET=<at least 32 random characters>
+ISPATLA_TOKEN_KEY_CURRENT=<separate random token key>
+ISPATLA_SECRET_KEY=<separate random AI vault key>
+ISPATLA_AUTOMATION=0
 ```
 
-Üretimde kendi HTTPS origin'inizi kullanın. Giriş salt okuma scope'ları ve PKCE kullanır; giriş grant'i otomatik yayın izni vermez. Girişteki `/2/users/me` çağrısının maliyeti için sıfır ücret iddiası yapılmaz.
+The sample `ISPATLA_PRIVATE_BETA=1` bypasses email verification for development/beta use; do not assume it is suitable for production. Mail delivery requires `ISPATLA_MAIL_API_URL` and `ISPATLA_MAIL_API_TOKEN` pointing to a compatible HTTPS JSON service. Verify delivery separately.
 
-**Prime öncesinde resmî ücretli veri/yayın istemcisi kapalıdır.** Bir ortam değişkeni, OAuth scope'u veya MCP parametresi bu sınırı açmaz. Prime entitlement ve bütçe doğrulaması henüz uygulanmadığından bu işlemler kullanılabilir gösterilmez. Public FxTwitter okuma ve kullanıcı tarafından tamamlanan paylaşım hazırlığı ayrı akışlardır. [Resmî API sınırı](docs/evidence/official-api-boundary.md).
+Public-handle analysis needs no 𝕏 password or OAuth grant. Adding a handle does not prove ownership. Optional application sign-in via 𝕏 uses `X_OAUTH_CLIENT_ID` and `X_OAUTH_CLIENT_SECRET`; the application callback is `/api/auth/callback/twitter`. Sign-in is read-only and does not grant posting permission. Its official user lookup may have a provider cost.
 
-Web Intent veya zamanlama ekranının açılması yayın başarı kanıtı değildir. Public receipt author/metin/hedef bağlamıyla ilişkilendirilir; belirsiz işlem kör yeniden denenmez. Otomatik like, DM ve spam kampanyaları ürün yolu değildir.
-
-### MCP
-
-Yerel stdio sunucusu:
+### MCP and workers
 
 ```sh
 bun run mcp
+bun run automation:scan
+bun run automation:worker
 ```
 
-İstemci süreç ortamındaki `ISPATLA_MCP_SESSION_COOKIE`, gerçek uygulama oturumunu temsil eder. Parola gibi koruyun; Git, log veya paylaşılan ayarlara koymayın.
+The local MCP client uses `ISPATLA_MCP_SESSION_COOKIE`, an actual application session secret. Never put it in Git, logs or shared configuration. Remote clients use `https://<your-origin>/mcp` with OAuth discovery, PKCE, consent and revocable scopes. Draft or publishing-preparation permission never grants automatic posting. Access can be revoked in `/settings/security`. See [MCP setup](https://ispatla.tr/docs#mcp) and [worker setup](docs/RUN-WORKER.md).
 
-Uzak istemciye dağıtımınızın `https://<origin>/mcp` adresini ekleyin. OAuth discovery, PKCE, açık consent ve iptal edilebilir scopes kullanılır: `read`, `drafts:write`, `analysis:write`, `publishing:prepare`, `receipts:write`. Taslak veya yayın hazırlama yetkisi otomatik gönderim yetkisi değildir. Erişim `/settings/security` üzerinden iptal edilebilir. [Bağlantı rehberi](https://ispatla.tr/docs#mcp).
-
-### Kontroller ve worker
+### Checks
 
 ```sh
 bun test --isolate
@@ -114,38 +114,10 @@ bun run test:seo
 bun run build
 ```
 
-Kaynak taraması `bun run automation:scan`, kalıcı worker `bun run automation:worker` ile çalışır. Kaynaklar, owner sınırları ve veritabanı hazır olmalıdır; bir sürecin başlaması veri kalitesini veya gerçek yayını kanıtlamaz. [Worker rehberi](docs/RUN-WORKER.md).
-
-Günlük pazarlama raporu `bun scripts/landing-report.ts` ile alınır. Olay sayıları kişi sayısı değildir; anonim landing ziyareti kayıt/taslak sahibiyle eşlenmez. İlk kalıcı taslak süreleri mevcut kayıtların anlık görüntüsüdür.
-
-[Mimari](docs/ARCHITECTURE.md) ⁜ [Brief kabul kaydı](docs/BRIEF_ACCEPTANCE.md) ⁜ [Katkı](CONTRIBUTING.md) ⁜ [Lisans](LICENSE)
-
-Yerel fixture, test, Lighthouse veya build sonucu canlı OAuth, mail teslimi, sağlayıcı faturası ve üretim davranışının yerine geçmez. Bu kanıtlar kabul kaydında ayrı tutulur.
-
-### Lighthouse ve SEO
-
-`bun run test:seo`; 20 dilde canonical/hreflang, robots/sitemap, sosyal resim ve oEmbed sınırlarını doğrular. Typecheck komutu `--strict` ile çalışır.
-
-Lighthouse için önce üretim derlemesini yerelde başlatın; geliştirme sunucusunu ölçmeyin:
-
-```sh
-bun run build
-bun run start
-# Ayrı terminalde:
-LIGHTHOUSE_URL=http://localhost:3000/ bun run quality:lighthouse
-```
-
-Chrome/Chromium gerekir; `CHROME_PATH` ile seçilebilir. Mobile ve desktop HTML/JSON raporları `lighthouse-reports/` altına yazılır. Eşikler: performans en az 90; erişilebilirlik, Best Practices ve SEO 100. İhlal komutu başarısız yapar. Bunlar yerel laboratuvar ölçümleridir; saha Core Web Vitals veya üretim erişilebilirliği kanıtı değildir. Ölçülen origin sunucunun yapılandırılmış origin'iyle eşleşmelidir.
-
-
-### SEO ve favicon doğrulaması
-
-After a production build is running locally, audit its actual responses:
-
-```sh
-bun run quality:seo http://localhost:3000
-```
-
-The gate covers sitemap pages in all 20 locales, reciprocal canonical/hreflang links, crawl rules, the reviewed brand favicon, social images, auth noindex and unknown-route 404s. It fails on missing, duplicate, conflicting or non-crawlable metadata. CI starts its own loopback production server for the same check. The origin argument can also be an explicitly selected deployment for a read-only audit; passing this gate does not prove Google has recrawled the site or changed its Search Console icon. Evidence and upstream references: [27 October usability/SEO verification](docs/qa/usability-seo-2026-10-27.md).
+For rendered metadata checks, start a production build locally and run `bun run quality:seo http://localhost:3000`. For Lighthouse, use `LIGHTHOUSE_URL=http://localhost:3000/ bun run quality:lighthouse` with Chrome/Chromium installed. These are local checks, not evidence of live OAuth, mail, billing, indexing or publication.
 
 </details>
+
+## Documentation
+
+[Architecture](docs/ARCHITECTURE.md) ⁜ [Official 𝕏 API boundary](docs/evidence/official-api-boundary.md) ⁜ [Product strategy](docs/PRODUCT_STRATEGY.md) ⁜ [Verification record](docs/BRIEF_ACCEPTANCE.md) ⁜ [Contributing](CONTRIBUTING.md) ⁜ [License](LICENSE)
